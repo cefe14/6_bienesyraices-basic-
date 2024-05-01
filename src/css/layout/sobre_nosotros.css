@@ -1,0 +1,22 @@
+.iconos{
+    text-align: center;
+}
+
+.iconos img{
+    width: 15%;
+    margin: 0 auto;
+}
+
+.iconos h3{
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+
+@media (min-width: 768px) {
+    .iconos-nosotros{
+        display: flex;
+        flex-direction: row;
+    }
+
+}

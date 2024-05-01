@@ -1,0 +1,18 @@
+@import url("base/normalize.css");
+@import url("base/variables.css");
+@import url("base/globales.css");
+@import url("base/utilidades.css");
+@import url("base/botones.css");
+
+/** UI/UX **/
+@import url("layout/header.css");
+@import url("layout/entradas.css");
+@import url("layout/footer.css");
+@import url("layout/navegacion.css");
+@import url("layout/sobre_nosotros.css");
+@import url("layout/interior.css");
+@import url("layout/anuncios.css");
+@import url("layout/contactar.css");
+@import url("layout/testimoniales.css");
+@import url("layout/formulario.css");
+@import url("interna/nosotros.css");

@@ -1,0 +1,52 @@
+/* Barra con logo arriba del nav*/ 
+ .barra {
+    display: flex;
+    flex-direction: column;  
+    padding-top: 1rem;
+ }
+
+/*Barra separada del nav
+.barra {
+    display: flex;
+    flex-direction: row;  
+    padding-top: 1rem;
+    justify-content: space-between;
+}
+*/
+
+.navegacion a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2.2rem;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+@media (min-width:768px) {
+    .navegacion{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .navegacion a{
+        margin-left: 1.5rem;
+        font-size: 1.8rem;
+    }
+
+    .navegacion a:last-of-type{
+        margin-right: 0;
+    }
+
+    .barra {
+        
+        flex-direction: column; /*Column o Row según la opción de barra que se elija*/
+        max-width: min-content; /*Para que el logo no ocupe el ancho de la pantalla*/
+    }
+
+    .barra img{
+        margin-left: 0;
+        max-width: 24rem;
+    }
+    
+}
